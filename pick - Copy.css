@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #FFFFFF;
+
+
+}
+*{
+	text-decoration: none;
+}
+.navbar{
+	background-color: #F8B55F;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.navdiv{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+}
+.logo a{
+	font-size: 35px;
+	font-weight: 600;
+	color: black;
+}
+li{
+	
+	display: inline-block;
+}
+li a{
+	color: #FCFAEE; font-size: 22px; margin-right: 25px;
+}
+li a:hover{
+	color: #B8001F;
+}
+.logupB{
+	height: 35px; width: 70px; background-color: #B8001F; 
+	border-radius: 40px;
+	border: none;
+}
+button a{
+	font-size: 18; color:#FCFAEE; font-weight:bold;
+}
+button:hover{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.gallery{
+	display: inline-block;
+	margin: 20px;
+	border-radius: 20px;
+	height: 270px;
+    width:200px;
+}
+
+.gallery.description{
+	padding: 10px;
+}
+.gallery:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.navgal{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.gallery img{
+	border-radius: 20px;
+}
+.gal{
+	display: flex;
+	flex-wrap: wrap;
+}
+.navbar1{
+	background-color: #254D70;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.navdiv1{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+}
+.logo1 a{
+	font-size: 35px;
+	font-weight: 600;
+	color: #EFE4D2;
+}
+.liF a:hover{
+	color: black;
+	
+}
+.cgal{
+	margin-bottom: 240px;
+}

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+fieldset{
+	height: 250px;
+	width: 300px;
+	padding: 60px;
+	text-align: center;
+	background-color: #183B4E;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	color: #F3F3D0;
+}
+body{
+/*	background-color: #F3F3D0;*/
+	background: url("../../Pictures/Saved Pictures/00af489323d4ffd8cdccb5e930d34522.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+label {
+            display: block;
+            margin-bottom: 5px;
+        }
+.inputtxt {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+	margin-bottom: 15px;
+        }
+
+legend{
+	color: #F3F3D0;
+}
+
+.bst{
+	width: 80px;
+	height: 30px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	margin-bottom: 15px;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
